@@ -1,0 +1,8 @@
+.survey-details {
+    width: 200px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.survey-button-yes, .survey-button-no{
+    display: inline-block;
+}
