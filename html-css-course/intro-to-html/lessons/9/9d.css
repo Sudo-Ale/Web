@@ -1,0 +1,17 @@
+div {
+    font-family: Arial;
+    display: inline-block;
+    background-color: rgba(19, 19, 19, 0.838);
+    color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 350px;
+}
+.youtube-music-title {
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 0;
+}
+.youtube-music-description {
+    color: rgb(200, 200, 200);
+}
