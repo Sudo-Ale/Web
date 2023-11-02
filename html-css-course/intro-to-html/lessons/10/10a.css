@@ -1,0 +1,47 @@
+.profile-preview {
+    display: inline-block;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: Arial;
+}
+
+.picture-preview {
+    display: inline-block;
+    vertical-align: middle;
+}
+.profile-picture {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 12px;
+}
+
+.profile-info {
+    display: inline-block;
+    margin-bottom: 0;
+    line-height: 8px;
+    vertical-align: middle;
+    margin-right: 200px;
+}
+.profile-name {
+    font-weight: bold;
+    font-size: 16px;
+}
+.profile-hobby, .profile-city {
+    font-size: 16px;
+    color: rgb(96, 96, 96);
+}
+
+.follow-profile {
+    display: inline-block;
+    vertical-align: middle;
+}
+.follow-button {
+    color: white;
+    background-color: rgb(49, 131, 238);
+    border: none;
+    width: 80px;
+    height: 35px;
+    border-radius: 6px;
+}
