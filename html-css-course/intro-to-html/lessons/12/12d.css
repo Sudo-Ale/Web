@@ -1,0 +1,13 @@
+.main {
+    display: flex;
+    flex-direction: row;
+    border-width: 1px;
+    border-color: gray;
+    border-style: solid;
+    justify-content:space-between;
+    height: 50px;
+    align-items: center;
+}
+.item1, .item2 {
+    background-color: lightcoral;
+}
