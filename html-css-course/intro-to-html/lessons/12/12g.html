@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Challenge 12g</title>
+    <style>
+        div {
+            font-family: Arial;
+        }
+        .row {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+        .profile-picture {
+            width: 70px;
+            height: 70px;
+            object-fit: cover;
+            border-radius: 50%;
+            cursor: pointer;
+        }
+        
+        .stats {
+            width: 300px;
+            font-size: 14px;
+            line-height: 6px;
+            margin-left: 10px;
+        }
+        .name {
+            font-weight: bold;
+            font-size: 18px;
+        }
+        .job,
+        .city {
+            color: grey;
+        }
+        
+        .follow-button {
+            background-color: rgb(50, 113, 230);
+            color: white;
+            font-weight: bold;
+            width: 70px;
+            height: 35px;
+            border-radius: 6px;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="row">
+        <img class="profile-picture" src="software-dev.jpg" alt="">
+
+        <div class="stats">
+            <p class="name">Alessio</p>
+            <p class="job">Software dev</p>
+            <p class="city">Genova</p>
+        </div>
+
+        <button class="follow-button">Follow</button>
+    </div>
+
+    <div class="row">
+        <img class="profile-picture" src="Treni-Charter.jpg" alt="">
+
+        <div class="stats">
+            <p class="name">Federicoccia</p>
+            <p class="job">Chief Station</p>
+            <p class="city">Arquata traitor</p>
+        </div>
+
+        <button class="follow-button">Follow</button>
+    </div>
+
+    <div class="row">
+        <img class="profile-picture" src="bombero-picture.png" alt="">
+
+        <div class="stats">
+            <p class="name">ER Bombero</p>
+            <p class="job">World Conqueror</p>
+            <p class="city">DAJE DAJE ROMA</p>
+        </div>
+
+        <button class="follow-button">Follow</button>
+    </div>
+</body>
+
+</html>

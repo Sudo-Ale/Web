@@ -1,0 +1,32 @@
+div{
+    font-family: Arial;
+}
+.main {
+    /* border-width: 1px; */
+    /* border-color: gray; */
+    /* border-style: solid; */
+    border-radius: 10px;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.75);
+    display: flex;
+    flex-direction: column;
+}
+.flexbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+.notifications {
+    border: none;
+    background-color: rgb(47, 118, 241);
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-radius: 14px;
+    font-weight: bold;
+    color: white;
+}
