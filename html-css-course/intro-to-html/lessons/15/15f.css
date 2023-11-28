@@ -1,0 +1,25 @@
+.bottom-overlay {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 80px;
+
+    background-color: rgba(255, 255, 255, 0.8);
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.add-to-cart-button {
+    background-color: white;
+    color: black;
+
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 14px;
+    padding-right: 14px;
+
+    border-style: solid;
+    border-width: 1px;
+}
