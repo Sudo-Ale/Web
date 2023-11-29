@@ -2,12 +2,153 @@
 <html>
 
 <head>
-    <title></title>
-    <style></style>
+    <title>Sidebar discord server</title>
+    <style>
+        body {
+            font-family: Arial;
+        }
+
+        .sidebar-server {
+            background-color: rgb(30, 33, 36);
+
+            position: fixed;
+            top: 0;
+            bottom: 0;
+            left: 0;
+
+            padding-left: 15px;
+            padding-right: 15px;
+            padding-top: 15px;
+        }
+
+        .dm {
+            margin-bottom: 20px;
+        }
+
+        .dm-picture {
+            background-color: white;
+            border-radius: 50%;
+            cursor: pointer;
+
+            width: 60px;
+            object-fit: cover;
+        }
+
+        .server {
+            cursor: pointer;
+        }
+
+        .server-picture {
+            height: 60px;
+            width: 60px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        .sidebar-channels {
+            background-color: rgb(40, 43, 48);
+
+            position: fixed;
+            top: 0;
+            bottom: 0;
+            left: 90px;
+
+            width: 200px;
+        }
+
+        .server-header {
+            cursor: pointer;
+
+            color: white;
+            margin-top: 15px;
+            margin-bottom: 15px;
+
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+
+        .server-header:hover {
+            background-color: rgb(54, 57, 62);
+        }
+
+        .server-name {
+            display: flex;
+            justify-content: center;
+
+            font-size: 15px;
+            font-weight: bold;
+        }
+
+        .text-channels-container {
+            color: white;
+            cursor: pointer;
+        }
+        .text-channel-header {
+            cursor: pointer;
+            color: lightgray;
+
+            font-size: 10px;
+            padding-left: 10px;
+            padding-bottom: 8px;
+            padding-top: 8px;
+        }
+        .text-channel-header:hover {
+            color: white;
+        }
+        .text-channel {
+            display: flex;
+            justify-content: left;
+            padding-left: 15px;
+            padding-top: 6px;
+            padding-bottom: 6px;
+
+            font-size: 14px;
+        }
+        .text-channel::before {
+            content: "#";
+            padding-right: 5px;
+            color: lightgray;
+        }
+        .text-channel:hover {
+            background-color: rgb(54, 57, 62);
+        }
+
+    </style>
 </head>
 
 <body>
-    
+    <div class="sidebar-server">
+        <div class="dm">
+            <img class="dm-picture" src="direct-message-icons/dm-discord.png" alt="">
+        </div>
+
+        <div class="server">
+            <img class="server-picture" src="server-icons/server-discord-lagilda.jpg" alt="">
+        </div>
+    </div>
+
+    <div class="sidebar-channels">
+        <div class="server-header">
+            <div class="server-name">
+                The Guild Server
+            </div>
+        </div>
+
+        <div class="text-channels-container">
+            <div class="text-channel-header">
+                CANALI TESTUALI
+            </div>
+            <div class="text-channel">
+                chat-generale
+            </div>
+            <div class="text-channel">
+                info
+            </div>
+            <div class="text-channel">
+                music
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
