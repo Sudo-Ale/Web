@@ -1,0 +1,171 @@
+.sidebar-left-user-info {
+    font-family: Arial;
+
+    position: relative;
+    top: 70px;
+    left: 150px;
+
+    height: 375px;
+    width: 195px;
+
+    background-color: white;
+    border-radius: 10px;
+}
+
+.profile {
+    height: 185px;
+    width: 100%;
+
+    border-bottom: 1px solid lightgray;
+}
+
+.background {
+    width: 100%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.info-picture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -25px;
+}
+
+.profile-picture {
+    width: 80px;
+    height: 80px;
+
+    border-radius: 100%;
+    border-style: solid;
+    border-color: white;
+}
+
+.info {
+    text-align: center;
+    line-height: 20px;
+}
+
+.user {
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.user:hover {
+    text-decoration: underline;
+    text-decoration-color: blueviolet;
+}
+
+.job {
+    color: rgb(141, 139, 139);
+    font-size: 12px;
+}
+
+.network {
+    font-size: 12px;
+    line-height: 18px;
+
+    margin-top: 12px;
+
+    border-bottom: 1px solid lightgray;
+}
+
+.spectators,
+.friends {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: rgb(141, 139, 139);
+
+    cursor: pointer;
+}
+
+.spectators:hover {
+    background-color: rgb(235, 235, 235);
+}
+
+.friends-container:hover {
+    background-color: rgb(235, 235, 235);
+}
+
+.spectators-counter,
+.friends-counter {
+    color: rgb(42, 42, 237);
+}
+
+.find-friends {
+    color: black;
+    padding-left: 5px;
+    margin-bottom: 12px;
+
+    cursor: pointer;
+}
+
+.find-friends:hover {
+    background-color: rgb(235, 235, 235);
+}
+
+.ads-premium {
+    font-size: 12px;
+    line-height: 15px;
+
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+
+    border-bottom: 1px solid lightgray;
+
+    cursor: pointer;
+}
+
+.ads-premium:hover {
+    background-color: rgb(235, 235, 235);
+}
+
+.ads-text {
+    color: rgb(141, 139, 139);
+}
+
+.try-premium {
+    display: flex;
+    align-items: center;
+}
+
+.square-premium {
+    width: 10px;
+    height: 10px;
+    background-color: rgb(199, 199, 52);
+    margin-right: 5px;
+}
+
+.saved-elements {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    cursor: pointer;
+
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.saved-elements:hover {
+    background-color: rgb(235, 235, 235);
+}
+
+.bookmark-icon {
+    width: 15px;
+    margin-top: 2px;
+    margin-right: 6px;
+}
+
+.text-elements {
+    font-size: 12px;
+}
