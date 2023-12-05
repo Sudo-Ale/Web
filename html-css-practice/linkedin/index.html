@@ -4,9 +4,116 @@
 <head>
     <title>Linkedin Clone</title>
     <link rel="stylesheet" href="style/header.css">
+
+    <style>
+        .sidebar-left {
+            font-family: Arial;
+
+            position: relative;
+            top: 100px;
+            left: 100px;
+
+            height: 500px;
+            width: 195px;
+
+            background-color: white;
+
+            border-top-right-radius: 10px;
+            border-top-left-radius: 10px;
+        }
+
+        .profile {
+            height: 185px;
+            width: 100%;
+            
+            border-bottom: 1px solid lightgray;
+        }
+
+        .background {
+            width: 100%;
+            border-top-right-radius: 10px;
+            border-top-left-radius: 10px;
+        }
+        .info-picture {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            top: -25px;
+
+            margin-bottom: 0;
+        }
+        .profile-picture {
+            width: 80px;
+            height: 80px;
+
+            border-radius: 100%;
+            border-style: solid;
+            border-color: white;
+        }
+
+        .info-user {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            font-size: 16px;
+            margin-top: 0;
+            margin-bottom: 6px;
+        }
+        .info-user-job {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            font-size: 12px;
+            color: rgb(141, 139, 139);
+        }
+
+        .network {
+            font-size: 12px;
+            line-height: 18px;
+
+            margin-top: 12px;
+            margin-bottom: 12px;
+            
+            border-bottom: 1px solid lightgray;
+        }
+        .spectators,
+        .friends {
+            display: flex;
+            justify-content: space-between;
+            padding-left: 5px;
+            padding-right: 5px;
+            color: rgb(141, 139, 139);
+            
+            cursor: pointer;
+        }
+        .spectators:hover,
+        .friends:hover {
+            background-color: rgb(235, 235, 235);
+        }
+        .spectators-counter,
+        .friends-counter {
+            color: rgb(42, 42, 237);
+        }
+        .find-friends {
+            color: black;
+            padding-left: 5px;
+            margin-bottom: 12px;
+
+            cursor: pointer;
+        }
+        .find-friends:hover {
+            background-color: rgb(235, 235, 235);
+        }
+    </style>
 </head>
 
-<body>
+<body style="
+        background-color: lightgray;
+        height: 3000px;
+    ">
     <div class="header">
         <div class="left-section">
             <div class="linkedin-logo-header">
@@ -52,6 +159,44 @@
             </div>
             <div class="in-premium">
                 <u>Prova Premium gratis</u>
+            </div>
+        </div>
+    </div>
+
+    <div class="sidebar-left">
+        <div class="profile">
+            <div>
+                <img class="background" src="profile-background/background-profile.jpg" alt="">
+            </div>
+
+            <div class="info-picture">
+                <img class="profile-picture" src="profile-picture/person-picture.jpeg" alt="">
+            </div>
+
+            <div class="info-user">
+                Alessio Maggio
+            </div>
+            <div class="info-user-job">
+                Software Developer
+            </div>
+        </div>
+
+        <div class="network">
+            <div class="spectators">
+                Chi ha visitato il mio profilo? 
+                <div class="spectators-counter">
+                    16
+                </div>
+            </div>
+
+            <div class="friends">
+                Collegamenti 
+                <div class="friends-counter">
+                    218
+                </div>
+            </div>
+            <div class="find-friends">
+                Epandi la tua rete
             </div>
         </div>
     </div>
