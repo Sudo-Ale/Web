@@ -10,7 +10,7 @@
     left: 0;
     right: 0;
 
-    height: 75px;
+    height: 50px;
 
     z-index: 1000;
 }
@@ -19,7 +19,7 @@
     display: flex;
     align-items: center;
 
-    margin-left: 80px;
+    margin-left: 350px;
 }
 
 .search-container {
@@ -41,6 +41,10 @@
 
 .middle-section {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    border-right:  1px solid lightgray;
 }
 
 .icon-link {
@@ -49,7 +53,7 @@
     justify-content: center;
     align-items: center;
 
-    margin-right: 30px;
+    margin-right: 35px;
 
     cursor: pointer;
 }
@@ -68,7 +72,7 @@
 
 .right-section {
     display: flex;
-    margin-right: 80px;
+    margin-right: 350px;
 }
 
 .in-premium {

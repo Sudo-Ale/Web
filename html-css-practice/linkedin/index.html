@@ -6,26 +6,24 @@
     <link rel="stylesheet" href="style/header.css">
 
     <style>
-        .sidebar-left {
+        .sidebar-left-user-info {
             font-family: Arial;
 
             position: relative;
-            top: 100px;
-            left: 100px;
+            top: 70px;
+            left: 150px;
 
-            height: 500px;
+            height: 375px;
             width: 195px;
 
             background-color: white;
-
-            border-top-right-radius: 10px;
-            border-top-left-radius: 10px;
+            border-radius: 10px;
         }
 
         .profile {
             height: 185px;
             width: 100%;
-            
+
             border-bottom: 1px solid lightgray;
         }
 
@@ -34,15 +32,15 @@
             border-top-right-radius: 10px;
             border-top-left-radius: 10px;
         }
+
         .info-picture {
             display: flex;
             justify-content: center;
             align-items: center;
             position: relative;
             top: -25px;
-
-            margin-bottom: 0;
         }
+
         .profile-picture {
             width: 80px;
             height: 80px;
@@ -52,22 +50,23 @@
             border-color: white;
         }
 
-        .info-user {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-
-            font-size: 16px;
-            margin-top: 0;
-            margin-bottom: 6px;
+        .info {
+            text-align: center;
+            line-height: 20px;
         }
-        .info-user-job {
-            display: flex;
-            align-items: center;
-            justify-content: center;
 
-            font-size: 12px;
+        .user {
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .user:hover {
+            text-decoration: underline;
+            text-decoration-color: blueviolet;
+        }
+
+        .job {
             color: rgb(141, 139, 139);
+            font-size: 12px;
         }
 
         .network {
@@ -75,10 +74,10 @@
             line-height: 18px;
 
             margin-top: 12px;
-            margin-bottom: 12px;
-            
+
             border-bottom: 1px solid lightgray;
         }
+
         .spectators,
         .friends {
             display: flex;
@@ -86,17 +85,23 @@
             padding-left: 5px;
             padding-right: 5px;
             color: rgb(141, 139, 139);
-            
+
             cursor: pointer;
         }
-        .spectators:hover,
-        .friends:hover {
+
+        .spectators:hover {
             background-color: rgb(235, 235, 235);
         }
+
+        .friends-container:hover {
+            background-color: rgb(235, 235, 235);
+        }
+
         .spectators-counter,
         .friends-counter {
             color: rgb(42, 42, 237);
         }
+
         .find-friends {
             color: black;
             padding-left: 5px;
@@ -104,8 +109,72 @@
 
             cursor: pointer;
         }
+
         .find-friends:hover {
             background-color: rgb(235, 235, 235);
+        }
+
+        .ads-premium {
+            font-size: 12px;
+            line-height: 15px;
+
+            padding-left: 5px;
+            padding-right: 5px;
+            padding-top: 12px;
+            padding-bottom: 12px;
+
+            border-bottom: 1px solid lightgray;
+
+            cursor: pointer;
+        }
+
+        .ads-premium:hover {
+            background-color: rgb(235, 235, 235);
+        }
+
+        .ads-text {
+            color: rgb(141, 139, 139);
+        }
+
+        .try-premium {
+            display: flex;
+            align-items: center;
+        }
+
+        .square-premium {
+            width: 10px;
+            height: 10px;
+            background-color: rgb(199, 199, 52);
+            margin-right: 5px;
+        }
+
+        .saved-elements {
+            display: flex;
+            align-items: center;
+            justify-content: left;
+
+            padding-left: 10px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+
+            cursor: pointer;
+
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+        }
+
+        .saved-elements:hover {
+            background-color: rgb(235, 235, 235);
+        }
+
+        .bookmark-icon {
+            width: 15px;
+            margin-top: 2px;
+            margin-right: 6px;
+        }
+
+        .text-elements {
+            font-size: 12px;
         }
     </style>
 </head>
@@ -163,7 +232,7 @@
         </div>
     </div>
 
-    <div class="sidebar-left">
+    <div class="sidebar-left-user-info">
         <div class="profile">
             <div>
                 <img class="background" src="profile-background/background-profile.jpg" alt="">
@@ -173,30 +242,49 @@
                 <img class="profile-picture" src="profile-picture/person-picture.jpeg" alt="">
             </div>
 
-            <div class="info-user">
-                Alessio Maggio
-            </div>
-            <div class="info-user-job">
-                Software Developer
+            <div class="info">
+                <div class="user">Alessio Maggio</div>
+                <div class="job">Software Developer</div>
             </div>
         </div>
 
         <div class="network">
             <div class="spectators">
-                Chi ha visitato il mio profilo? 
+                Chi ha visitato il mio profilo?
                 <div class="spectators-counter">
                     16
                 </div>
             </div>
 
-            <div class="friends">
-                Collegamenti 
-                <div class="friends-counter">
-                    218
+            <div class="friends-container">
+                <div class="friends">
+                    Collegamenti
+                    <div class="friends-counter">
+                        218
+                    </div>
+                </div>
+                <div class="find-friends">
+                    Epandi la tua rete
                 </div>
             </div>
-            <div class="find-friends">
-                Epandi la tua rete
+        </div>
+
+        <div class="ads-premium">
+            <div class="ads-text">
+                Accedi a strumenti e informazioni in esclusiva
+            </div>
+            <div class="try-premium">
+                <div class="square-premium"></div>
+                <div>Prova Premium gratis</div>
+            </div>
+        </div>
+
+        <div class="saved-elements">
+            <div>
+                <img class="bookmark-icon" src="icons/bookmark.svg" alt="">
+            </div>
+            <div class="text-elements">
+                I miei elementi
             </div>
         </div>
     </div>
