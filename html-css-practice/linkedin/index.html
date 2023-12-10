@@ -14,9 +14,115 @@
         }
 
         .left-side {
-            height: 500px;
+            height: 420px;
             width: 300px;
             background-color: white;
+
+            border-radius: 10px;
+            position: relative;
+        }
+
+        /* .side-background {
+        } */
+        .side-background img {
+            width: 100%;
+
+            border-top-right-radius: 10px;
+            border-top-left-radius: 10px;
+        }
+
+        .side-picture {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+
+            margin-bottom: 70px;
+        }
+
+        .side-picture img {
+            width: 90px;
+            border-radius: 100%;
+
+            position: absolute;
+            top: 25px;
+
+            border: 2px solid white;
+        }
+
+        .side-info {
+            border-bottom: 1px solid rgb(124, 124, 124);
+            padding-bottom: 20px;
+        }
+
+        .username {
+            display: flex;
+            justify-content: center;
+
+            font-size: 20px;
+            margin-bottom: 8px;
+        }
+
+        .job {
+            display: flex;
+            justify-content: center;
+
+            color: rgb(124, 124, 124);
+        }
+        .side-section {
+            border-bottom: 1px solid rgb(124, 124, 124);
+
+            position: relative;
+            
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+        }
+        .side-inside {
+            font-size: 14px;
+            display: flex;
+            justify-content: space-between;
+
+            padding-left: 10px;
+            padding-right: 10px;
+            cursor: pointer;
+
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+        .side-inside:hover {
+            background-color: lightgray;
+            position: relative;
+            
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+        }
+        .side-text {
+            color: rgb(155, 155, 155);
+        }
+        .side-count {
+            color: blue;
+        }
+        .side-text-plus {
+            color: black;
+        }
+        .side-inline {
+            display: flex;
+            align-items: center;
+        }
+        .square {
+            width: 10px;
+            height: 10px;
+
+            background-color: rgb(255, 208, 0);
+            margin-right: 8px;
+        }
+        .side-saved-elements {
+        }
+        .side-bookmark-icon {
+            margin-right: 8px;
         }
 
         .main-side {
@@ -25,6 +131,7 @@
             margin-left: 25px;
             margin-right: 25px;
         }
+
         .main-head {
             width: 100%;
             height: 100px;
@@ -32,9 +139,10 @@
 
             margin-bottom: 20px;
         }
+
         .main-body {
             background-color: white;
-            height: 800px;
+            height: 700px;
         }
 
         .right-side {
@@ -72,7 +180,7 @@
                 <img src="icons/messages.svg" alt="">
                 <div>Messaggistica</div>
             </div>
-            
+
             <div class="header-link">
                 <img src="icons/notifications.svg" alt="">
                 <div>Notifiche</div>
@@ -96,8 +204,73 @@
 
     <div class="main-container">
         <div class="left-side">
+            <div class="side-background">
+                <img src="profile-background/background-profile.jpg" alt="">
+            </div>
+
+            <div class="side-picture">
+                <img src="profile-picture/person-picture.jpeg" alt="">
+            </div>
+
+            <div class="side-info">
+                <div class="username">
+                    Alessio Maggio
+                </div>
+                <div class="job">
+                    Software Developer
+                </div>
+            </div>
+
+            <div class="side-section">
+                <div class="side-inside">
+                    <div class="side-text">
+                        Chi ha visitato il tuo profilo?
+                    </div>
+                    <div class="side-count">
+                        17
+                    </div>
+                </div>
+
+                <div class="side-inside">
+                    <div class="side-text">
+                        Collegamenti
+                        <div class="side-text-plus">
+                            Espandi la tua rete
+                        </div>
+                    </div>
+                    <div class="side-count">
+                        218
+                    </div>
+                </div>
+            </div>
+
+            <div class="side-section">
+                <div class="side-inside">
+                    <div class="side-text">
+                        Accedi a strumenti e informazioni in esclusiva
+                        <div class="side-inline">
+                            <div class="square"></div>
+                            <div class="side-text-plus">
+                                Prova Premium gratis
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="side-saved-elements">
+                <div class="side-inside">
+                    <div class="side-inline">
+                        <img class="side-bookmark-icon" src="icons/bookmark.svg" alt="">
+                        <div>
+                            I miei elementi
+                        </div>
+                    </div>
+                </div>
+            </div>
 
         </div>
+        
         <div class="main-side">
             <div class="main-head">
                 header
