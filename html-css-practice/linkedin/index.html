@@ -3,120 +3,112 @@
 
 <head>
     <title>Linkedin Clone</title>
+    <link rel="stylesheet" href="style/general.css">
     <link rel="stylesheet" href="style/header.css">
-    <link rel="stylesheet" href="style/sidebar.css">
     <style>
-        
+        .main-container {
+            display: flex;
+            justify-content: center;
+
+            margin-top: 70px;
+        }
+
+        .left-side {
+            height: 500px;
+            width: 300px;
+            background-color: white;
+        }
+
+        .main-side {
+            width: 600px;
+
+            margin-left: 25px;
+            margin-right: 25px;
+        }
+        .main-head {
+            width: 100%;
+            height: 100px;
+            background-color: white;
+
+            margin-bottom: 20px;
+        }
+        .main-body {
+            background-color: white;
+            height: 800px;
+        }
+
+        .right-side {
+            height: 500px;
+            width: 300px;
+            background-color: white;
+        }
     </style>
 </head>
 
-<body style="
-        background-color: lightgray;
-        height: 3000px;
-    ">
+<body>
     <div class="header">
         <div class="left-section">
-            <div class="linkedin-logo-header">
-                <img class="logo" src="icons/linkedin-logo.svg" alt="">
-            </div>
-
-            <div class="search-container">
-                <input class="search-bar" type="text" placeholder="Cerca">
-            </div>
+            <img class="linkedin-logo" src="icons/linkedin-logo.svg" alt="">
+            <input class="search" type="text" placeholder="Cerca">
         </div>
 
         <div class="middle-section">
-            <div class="icon-link">
+            <div class="header-link">
                 <img src="icons/home.svg" alt="">
                 <div>Home</div>
             </div>
-            <div class="icon-link">
+
+            <div class="header-link">
                 <img src="icons/friends.svg" alt="">
                 <div>Rete</div>
             </div>
-            <div class="icon-link">
+
+            <div class="header-link">
                 <img src="icons/work.svg" alt="">
                 <div>Lavoro</div>
             </div>
-            <div class="icon-link">
+
+            <div class="header-link">
                 <img src="icons/messages.svg" alt="">
                 <div>Messaggistica</div>
             </div>
-            <div class="icon-link">
+            
+            <div class="header-link">
                 <img src="icons/notifications.svg" alt="">
                 <div>Notifiche</div>
             </div>
-            <div class="icon-link">
-                <img class="profile-picture-header" src="profile-picture/person-picture.jpeg" alt="">
+
+            <div class="header-link">
+                <img class="header-profile" src="profile-picture/person-picture.jpeg" alt="">
                 <div>Tu</div>
             </div>
         </div>
 
         <div class="right-section">
-            <div class="icon-link">
+            <div class="header-link">
                 <img src="icons/apps.svg" alt="">
                 <div>Per le aziende</div>
             </div>
-            <div class="in-premium">
-                <u>Prova Premium gratis</u>
-            </div>
+
+            <div>Prova Permium gratis</div>
         </div>
     </div>
 
-    <div class="sidebar-left-user-info">
-        <div class="profile">
-            <div>
-                <img class="background" src="profile-background/background-profile.jpg" alt="">
-            </div>
+    <div class="main-container">
+        <div class="left-side">
 
-            <div class="info-picture">
-                <img class="profile-picture" src="profile-picture/person-picture.jpeg" alt="">
+        </div>
+        <div class="main-side">
+            <div class="main-head">
+                header
             </div>
-
-            <div class="info">
-                <div class="user">Alessio Maggio</div>
-                <div class="job">Software Developer</div>
+            <div class="main-body">
+                body
             </div>
         </div>
 
-        <div class="network">
-            <div class="spectators">
-                Chi ha visitato il mio profilo?
-                <div class="spectators-counter">
-                    16
-                </div>
-            </div>
+        <div class="right-side">
 
-            <div class="friends-container">
-                <div class="friends">
-                    Collegamenti
-                    <div class="friends-counter">
-                        218
-                    </div>
-                </div>
-                <div class="find-friends">
-                    Epandi la tua rete
-                </div>
-            </div>
-        </div>
-
-        <div class="ads-premium">
-            <div class="ads-text">
-                Accedi a strumenti e informazioni in esclusiva
-            </div>
-            <div class="try-premium">
-                <div class="square-premium"></div>
-                <div>Prova Premium gratis</div>
-            </div>
-        </div>
-
-        <div class="saved-elements">
-            <div>
-                <img class="bookmark-icon" src="icons/bookmark.svg" alt="">
-            </div>
-            <div class="text-elements">
-                I miei elementi
-            </div>
         </div>
     </div>
 </body>
