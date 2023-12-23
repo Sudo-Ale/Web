@@ -17,3 +17,25 @@ body {
 
     margin-top: 70px;
 }
+
+.main-body {
+}
+
+.post-header {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+    padding: 10px 10px;
+}
+.post-profile-picture {
+    width: 40px;
+    margin-right: 8px;
+}
+
+.post-info-user {
+    line-height: 20px;
+}
+.post-info-user .type {
+    color: rgb(145, 143, 143);
+}
