@@ -1,6 +1,8 @@
 * {
     margin: 0;
     padding: 0;
+
+    font-family: sans-serif;
 }
 
 .container {
@@ -9,8 +11,17 @@
     margin: auto;
     padding: 40px 0;
 }
+
 .title{
     margin-bottom: 2rem;
+    text-align: center;
+    font-size: 3rem;
+    border-bottom: .5rem solid black;
+
+    padding-bottom: 15px;
+}
+.title span {
+    font-weight: 100;
 }
 
 .photo-gallery {
