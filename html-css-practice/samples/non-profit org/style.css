@@ -63,10 +63,22 @@ body {
 .init-container .container-absolute nav ul li a{
     color: white;
 }
+.init-container .container-absolute nav button{
+    height: 50px;
+    width: 120px;
+
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+
+    background-color: #60cd70;
+    border-radius: 25px;
+    border: none;
+}
 
 .init-container .container-absolute .description {
-    background-color: rgba(0, 0, 0, 0.5);
     color: white;
+    background-color: rgba(0, 0, 0, 0.5);
     height: 100%;
 
     display: flex;
@@ -74,10 +86,17 @@ body {
     justify-content: center;
     align-items: center;
 }
+.init-container .container-absolute .description *{
+    margin-bottom: 25px;
+}
+
 .init-container .container-absolute .description img{
     width: 100px;
 }
 .init-container .container-absolute .description h3{
     font-weight: bolder;
-    font-size: 2rem;
+    font-size: 80px;
+}
+.init-container .container-absolute .description span{
+    font-size: 25px;
 }
