@@ -1,0 +1,135 @@
+.squares div{
+    margin-bottom: 20px;
+
+    width: 100px;
+    height: 100px;
+}
+
+.red-square {
+    background-color: red;
+
+    transition: width 1s;
+}
+.red-square:hover {
+    width: 300px;
+}
+
+.blue-square {
+    background-color: blue;
+
+    transition: width 1s, height 1s, transform 1s;
+}
+.blue-square:hover {
+    width: 300px;
+    height: 300px;
+    transform: rotate(180deg);
+}
+
+.hello-square {
+    background-color: hsl(0, 97%, 63%);
+    font-size: 5em;
+    text-align: center;
+
+    animation-name: slideLeft;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-play-state: running;
+    animation-timing-function: ease-in-out;
+}
+/* .hello-square:hover {
+    animation-name: glow;
+    animation-duration: 2s;
+} */
+/* .hello-square:active {
+    animation-name: glow;
+    animation-duration: 2s;
+} */
+@keyframes grow {
+    50%{
+        transform: scale(2, 2);
+    }
+}
+@keyframes shrink {
+    50%{
+        transform: scale(0.5, 0.5);
+    }
+}
+@keyframes fade {
+    50% {
+        opacity: 0;
+    }
+}
+@keyframes colorChange {
+    0% {
+        background-color: hsl(0, 97%, 63%);
+    }
+    20% {
+        background-color: hsl(27, 97%, 63%);
+    }
+    40% {
+        background-color: hsl(51, 97%, 63%);
+    }
+    60% {
+        background-color: hsl(103, 97%, 63%);
+    }
+    80% {
+        background-color: hsl(199, 97%, 63%);
+    }
+    100% {
+        background-color: hsl(271, 97%, 63%);
+    }
+}
+@keyframes glow {
+    50% {
+        box-shadow: 0 0 50px hsl(41, 82%, 58%);
+    }
+}
+
+
+.buttons {
+    display: flex;
+    justify-content: flex-start;
+}
+.blue-btn {
+    width: 120px;
+    height: 60px;
+
+    background-color: rgb(38, 125, 240);
+    color: white;
+    font-weight: bolder;
+    font-size: 15px;
+
+    border: none;
+    border-radius: 6px;
+    box-shadow: 0 0 5px black;
+
+    animation-name: rotate;
+    animation-duration: 2s;
+}
+
+@keyframes slideLeft {
+    from{
+        transform: translateX(300%);
+    }
+}
+@keyframes slideRight {
+    to{
+        transform: translateX(300%);
+    }
+}
+@keyframes slideUp {
+    from{
+        transform: translateY(300%);
+    }
+}
+@keyframes slideDown {
+    to{
+        transform: translateY(300%);
+    }
+}
+@keyframes rotate {
+    25%{
+        transform: rotateZ(360deg);
+    }
+}
