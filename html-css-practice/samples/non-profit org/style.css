@@ -98,6 +98,7 @@ body {
 
 .init-container .container-absolute .description * {
     margin-bottom: 25px;
+    padding-bottom: 25px;
 }
 
 .init-container .container-absolute .description img {
