@@ -11,8 +11,8 @@ body {
     height: 3000px;
 }
 
-section {
-    margin-bottom: 100px;
+.initial-section {
+    margin-bottom: 80px;
 }
 
 /*initial container*/
@@ -113,6 +113,9 @@ section {
     font-size: 25px;
 }
 
+.video-section {
+    margin-bottom: 80px;
+}
 .video-container {
     margin: auto;
 
@@ -120,7 +123,7 @@ section {
     height: 600px;
 }
 
-.more-description-container {
+.info-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -129,31 +132,37 @@ section {
     text-align: center;
 }
 
-.more-description-container svg {
+.info-container svg {
     width: 80px;
     height: 80px;
     fill: #D7C7A6;
     margin: auto;
 }
 
-.more-description-container .svg-container {
+.info-container .svg-container {
     text-align: center;
     margin-bottom: 40px;
 }
 
-.more-description-container .sun-shine {
+.info-container .sun-shine {
     transform: rotate(22deg);
 }
 
-.more-description-container .paragraph-container {
+.info-container .paragraph-container {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 
     text-align: center;
 }
+.info-container h3 {
+    font-size: 30px;
+    font-weight: 500;
 
-.more-description-container .who-we-are {
+    margin-bottom: 40px;
+}
+.info-container p {
     font-size: 20px;
     font-weight: 400;
 
@@ -161,7 +170,7 @@ section {
     margin-bottom: 40px;
 }
 
-.more-description-container .who-we-are-btn {
+.info-container .who-we-are-btn {
     background-color: #D7C7A6;
     width: 250px;
     height: 50px;
@@ -175,10 +184,12 @@ section {
 
     cursor: pointer;
 }
-.more-description-container .who-we-are-btn:hover {
+
+.info-container .who-we-are-btn:hover {
     background-color: #d6cab4;
 }
-.more-description-container .divider {
+
+.info-container .divider {
     border: 1px thin #000;
     margin: 40px 40px;
     width: 60%;
