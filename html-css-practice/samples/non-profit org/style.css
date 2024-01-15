@@ -8,8 +8,7 @@
 }
 
 body {
-    height: 3000px;
-
+    height: 5000px;
 }
 
 .initial-section {
@@ -107,7 +106,7 @@ body {
 }
 
 .init-container .container-absolute .description h3 {
-    font-weight: bolder;
+    font-weight: 500;
     font-size: 80px;
 }
 
@@ -194,9 +193,10 @@ body {
     background-color: #d6cab4;
 }
 
-.info-container .divider {
+
+.divider {
     border: 1px thin #000;
-    margin: 40px 40px;
+    margin: 40px auto;
     width: 60%;
 }
 
@@ -240,7 +240,7 @@ body {
 
 .article-container .article-content h4 {
     font-size: 20px;
-    font-weight: 400;
+    font-weight: 500;
     text-decoration: underline;
 }
 
@@ -268,4 +268,103 @@ body {
 
 .article-container .article-footer .footer-divider {
     margin-bottom: 10px;
+}
+
+.our-projects-container {
+}
+.our-projects-container .icon-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.our-projects-container .icon-container svg {
+    width: 90px;
+    height: 90px;
+
+    fill: #D7C7A6;
+}
+
+.our-projects-container .text-ongoing-projects {
+    text-align: center;
+    line-height: 80px;
+    margin-bottom: 100px;
+}
+.our-projects-container .text-ongoing-projects h3 {
+    font-size: 40px;
+    font-weight: 500;
+}
+.our-projects-container .text-ongoing-projects p {
+    font-size: 30px;
+    font-weight: 300;
+}
+.our-projects-container .slide-content-container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-bottom: 100px;
+
+    animation: 
+        3s ease-in fadeIn 0s 1;
+}
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.our-projects-container .slide-content-container .slide {
+    text-align: center;
+}
+.our-projects-container .slide-content-container .slide h4 {
+    font-size: 40px;
+    font-weight: 400;
+
+    margin-bottom: 20px;
+}
+.our-projects-container .slide-content-container .slide button {
+    width: 200px;
+    height: 60px;
+
+    border-radius: 30px;
+    background-color: white;
+    
+    border: 2px solid #D7C7A6;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.4);
+
+    font-size: 18px;
+    font-weight: 300;
+}
+.our-projects-container .button-projects-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.our-projects-container .button-projects-container .our-projects-btn{
+    background-color: #D7C7A6;
+
+    width: 300px;
+    height: 60px;
+
+    border-radius: 30px;
+    border: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+
+    font-size: 18px;
+    font-weight: 400;
+
+    cursor: pointer;
+
+    transition: background-color 1s;
+}
+.our-projects-container .button-projects-container .our-projects-btn:hover{
+    background-color: #d6cab4;
+}
+
+.learning-hub-container {
+    display: flex;
+    flex-direction: column;
+}
+.learning-hub-container .background-image-learning-hub {
 }

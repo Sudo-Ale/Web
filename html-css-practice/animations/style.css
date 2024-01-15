@@ -31,8 +31,8 @@
     text-align: center;
 
     animation-name: slideLeft;
-    animation-duration: 2s;
-    animation-iteration-count: 1;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
     animation-direction: normal;
     animation-play-state: running;
     animation-timing-function: ease-in-out;
