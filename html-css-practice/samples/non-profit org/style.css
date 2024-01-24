@@ -367,4 +367,56 @@ body {
     flex-direction: column;
 }
 .learning-hub-container .background-image-learning-hub {
+    display: flex;
+    justify-content: center;
+
+    margin-bottom: 20px;
+}
+.learning-hub-container .background-image-learning-hub img{
+    width: 60%;
+    height: 400px;
+
+    object-fit: cover;
+}
+
+.learning-hub-container .info {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    width: 60%;
+    margin: auto;
+}
+.learning-hub-container .info h4{
+    font-size: 35px;
+    font-weight: 400;
+
+    margin-bottom: 20px;
+}
+.learning-hub-container .info p {
+    text-align: center;
+
+    font-size: 18px;
+
+    padding: 0 100px;
+    line-height: 25px;
+
+    margin-bottom: 20px;
+}
+.learning-hub-container .info button {
+    width: 200px;
+    height: 60px;
+
+    border-radius: 30px;
+    background-color: white;
+    
+    border: 2px solid #D7C7A6;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.4);
+
+    font-size: 18px;
+    font-weight: 300;
+
+    cursor: pointer;
 }
