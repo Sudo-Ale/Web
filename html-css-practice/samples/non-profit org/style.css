@@ -8,7 +8,7 @@
 }
 
 body {
-    height: 5000px;
+    height: 6000px;
 }
 
 .initial-section {
@@ -417,6 +417,111 @@ body {
 
     font-size: 18px;
     font-weight: 300;
+
+    cursor: pointer;
+}
+.location-icon-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.location-icon-container svg {
+    width: 200px;
+    height: 50px;
+
+    fill: #D7C7A6;
+
+    margin-bottom: 20px;
+}
+.location-icon-container h3 {
+    font-weight: 500;
+    font-size: 25px;
+
+    margin-bottom: 200px;
+}
+
+.contact-us {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+    width: 80%;
+    margin: auto;
+}
+.contact-us h3{
+    margin-bottom: 80px;
+}
+.contact-us .infoes {
+    display: flex;
+    gap: 200px;
+}
+
+.contact-us .info-location {
+    display: flex;
+    flex-direction: column;
+}
+.contact-us .info-location 
+.onlus,
+.address,
+.phone {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.contact-us .send-us-mail {
+    display: flex;
+    flex-direction: column;
+}
+.contact-us .send-us-mail
+.name,
+.email,
+.message {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.name input,
+.email input {
+    width: 200px;
+    height: 30px;
+
+    border: 1px solid black;
+}
+.message input {
+    width: 300px;
+    height: 100px;
+
+    border: 1px solid black;
+
+    margin-bottom: 10px;
+}
+
+.name input::placeholder,
+.email input::placeholder,
+.message input::placeholder {
+    padding-left: 10px;
+}
+
+.message input::placeholder {
+    padding-top: 10px;
+
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+
+.message .send-btn {
+    height: 40px;
+    background-color: #6EC1E4;
+    
+    border: none;
+    border-radius: 20px;
+
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
 
     cursor: pointer;
 }
