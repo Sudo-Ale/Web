@@ -53,14 +53,12 @@ header h3 span {
 }
 
 @media (max-width: 760px) {
-    .photo-gallery {
-        flex-direction: column;
-    }
-}
-
-@media (max-width: 760px) {
     header {
         text-align: center;
+        flex-direction: column;
+    }
+    
+    .photo-gallery {
         flex-direction: column;
     }
 }
