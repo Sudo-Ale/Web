@@ -451,10 +451,13 @@ body {
 }
 .contact-us h3{
     margin-bottom: 80px;
+    font-size: 35px;
 }
 .contact-us .infoes {
     display: flex;
     gap: 200px;
+
+    margin-bottom: 50px;
 }
 
 .contact-us .info-location {
@@ -464,9 +467,26 @@ body {
 .contact-us .info-location 
 .onlus,
 .address,
-.phone {
+.phone,
+.fax,
+.mail {
     display: flex;
+    align-items: center;
+
     margin-bottom: 10px;
+}
+.contact-us .info-location 
+.onlus svg,
+.address svg,
+.phone svg,
+.fax svg,
+.mail svg {
+    width: 18px;
+    margin-right: 10px;
+}
+
+.phone svg {
+    transform: rotate(270deg);
 }
 
 .contact-us .send-us-mail {
@@ -484,30 +504,30 @@ body {
 
 .name input,
 .email input {
-    width: 200px;
+    width: 300px;
     height: 30px;
 
     border: 1px solid black;
+
+    padding-left: 10px;
 }
 .message input {
     width: 300px;
     height: 100px;
-
     border: 1px solid black;
-
     margin-bottom: 10px;
-}
 
-.name input::placeholder,
-.email input::placeholder,
-.message input::placeholder {
+    position: relative;
+
+    text-align: left;
+
     padding-left: 10px;
+    padding-bottom: 60px;
 }
 
 .message input::placeholder {
-    padding-top: 10px;
-
-    position: fixed;
+    padding: 10px;
+    position: absolute;
     left: 0;
     top: 0;
 }
@@ -524,4 +544,33 @@ body {
     color: white;
 
     cursor: pointer;
+
+    transition: background-color .5s;
+}
+
+.message .send-btn:hover {
+    background-color: #55b7e1;
+}
+
+.social-network {
+    display: flex;
+    justify-content: center;
+}
+
+.social-network .follow-us {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.social-network .follow-us svg {
+    fill: #D7C7A6;
+    margin-bottom: 10px;
+
+    width: 200px;
+    height: 80px;
+}
+.social-network .follow-us h3 {
+    font-size: 30px;
+    font-weight: 500;
 }
