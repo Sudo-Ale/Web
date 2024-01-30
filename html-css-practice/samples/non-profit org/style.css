@@ -270,12 +270,13 @@ body {
     margin-bottom: 10px;
 }
 
-.our-projects-container {
-}
+.our-projects-container {}
+
 .our-projects-container .icon-container {
     text-align: center;
     margin-bottom: 20px;
 }
+
 .our-projects-container .icon-container svg {
     width: 90px;
     height: 90px;
@@ -288,27 +289,32 @@ body {
     line-height: 80px;
     margin-bottom: 100px;
 }
+
 .our-projects-container .text-ongoing-projects h3 {
     font-size: 40px;
     font-weight: 500;
 }
+
 .our-projects-container .text-ongoing-projects p {
     font-size: 30px;
     font-weight: 300;
 }
+
 .our-projects-container .slide-content-container {
     display: flex;
     justify-content: center;
     align-content: center;
     margin-bottom: 100px;
 
-    animation: 
+    animation:
         3s ease-in fadeIn 0s 1;
 }
+
 @keyframes fadeIn {
     0% {
         opacity: 0;
     }
+
     100% {
         opacity: 1;
     }
@@ -317,31 +323,35 @@ body {
 .our-projects-container .slide-content-container .slide {
     text-align: center;
 }
+
 .our-projects-container .slide-content-container .slide h4 {
     font-size: 40px;
     font-weight: 400;
 
     margin-bottom: 20px;
 }
+
 .our-projects-container .slide-content-container .slide button {
     width: 200px;
     height: 60px;
 
     border-radius: 30px;
     background-color: white;
-    
+
     border: 2px solid #D7C7A6;
     box-shadow: 0 0 1px rgba(0, 0, 0, 0.4);
 
     font-size: 18px;
     font-weight: 300;
 }
+
 .our-projects-container .button-projects-container {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.our-projects-container .button-projects-container .our-projects-btn{
+
+.our-projects-container .button-projects-container .our-projects-btn {
     background-color: #D7C7A6;
 
     width: 300px;
@@ -358,7 +368,8 @@ body {
 
     transition: background-color 1s;
 }
-.our-projects-container .button-projects-container .our-projects-btn:hover{
+
+.our-projects-container .button-projects-container .our-projects-btn:hover {
     background-color: #d6cab4;
 }
 
@@ -366,13 +377,15 @@ body {
     display: flex;
     flex-direction: column;
 }
+
 .learning-hub-container .background-image-learning-hub {
     display: flex;
     justify-content: center;
 
     margin-bottom: 20px;
 }
-.learning-hub-container .background-image-learning-hub img{
+
+.learning-hub-container .background-image-learning-hub img {
     width: 60%;
     height: 400px;
 
@@ -389,12 +402,14 @@ body {
     width: 60%;
     margin: auto;
 }
-.learning-hub-container .info h4{
+
+.learning-hub-container .info h4 {
     font-size: 35px;
     font-weight: 400;
 
     margin-bottom: 20px;
 }
+
 .learning-hub-container .info p {
     text-align: center;
 
@@ -405,13 +420,14 @@ body {
 
     margin-bottom: 20px;
 }
+
 .learning-hub-container .info button {
     width: 200px;
     height: 60px;
 
     border-radius: 30px;
     background-color: white;
-    
+
     border: 2px solid #D7C7A6;
     box-shadow: 0 0 1px rgba(0, 0, 0, 0.4);
 
@@ -420,12 +436,14 @@ body {
 
     cursor: pointer;
 }
+
 .location-icon-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
+
 .location-icon-container svg {
     width: 200px;
     height: 50px;
@@ -434,6 +452,7 @@ body {
 
     margin-bottom: 20px;
 }
+
 .location-icon-container h3 {
     font-weight: 500;
     font-size: 25px;
@@ -445,14 +464,16 @@ body {
     display: flex;
     align-items: center;
     flex-direction: column;
-    
+
     width: 80%;
     margin: auto;
 }
-.contact-us h3{
+
+.contact-us h3 {
     margin-bottom: 80px;
     font-size: 35px;
 }
+
 .contact-us .infoes {
     display: flex;
     gap: 200px;
@@ -464,8 +485,8 @@ body {
     display: flex;
     flex-direction: column;
 }
-.contact-us .info-location 
-.onlus,
+
+.contact-us .info-location .onlus,
 .address,
 .phone,
 .fax,
@@ -475,8 +496,8 @@ body {
 
     margin-bottom: 10px;
 }
-.contact-us .info-location 
-.onlus svg,
+
+.contact-us .info-location .onlus svg,
 .address svg,
 .phone svg,
 .fax svg,
@@ -493,8 +514,8 @@ body {
     display: flex;
     flex-direction: column;
 }
-.contact-us .send-us-mail
-.name,
+
+.contact-us .send-us-mail .name,
 .email,
 .message {
     display: flex;
@@ -511,6 +532,7 @@ body {
 
     padding-left: 10px;
 }
+
 .message input {
     width: 300px;
     height: 100px;
@@ -535,7 +557,7 @@ body {
 .message .send-btn {
     height: 40px;
     background-color: #6EC1E4;
-    
+
     border: none;
     border-radius: 20px;
 
@@ -563,6 +585,7 @@ body {
     justify-content: center;
     align-items: center;
 }
+
 .social-network .follow-us svg {
     fill: #D7C7A6;
     margin-bottom: 10px;
@@ -570,6 +593,7 @@ body {
     width: 200px;
     height: 80px;
 }
+
 .social-network .follow-us h3 {
     font-size: 30px;
     font-weight: 500;
@@ -579,15 +603,18 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+
 }
+
 .donate-container .button-container {
     margin-bottom: 20px;
 }
+
 .donate-container .button-container .donate-btn {
     width: 250px;
     height: 60px;
 
-    background-color: #61CE70;
+    background-color: #49C65B;
     color: white;
 
     font-weight: 500;
@@ -597,6 +624,12 @@ body {
     border-radius: 30px;
 
     cursor: pointer;
+
+    transition: background-color 0.5s;
+}
+
+.donate-container .button-container .donate-btn:hover {
+    background-color: #61CE70;
 }
 
 .make-a-difference-container {
@@ -606,35 +639,93 @@ body {
     width: 60%;
 
     gap: 20px;
+    height: 800px;
 }
+
 .make-a-difference-container .left-side {
-    flex: 2;
+    flex: 1;
 }
+
 .make-a-difference-container .left-side .image-container {
     text-align: center;
     margin-bottom: 10px;
 }
+
 .make-a-difference-container .left-side .image-container img {
     width: 100%;
+    object-fit: cover;
 }
-.make-a-difference-container .left-side h5{
+
+.make-a-difference-container .left-side h5 {
     font-size: 20px;
     font-weight: 500;
 }
 
 .make-a-difference-container .right-side {
     flex: 1;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
 }
-.make-a-difference-container .right-side .header-right-side{
+
+.make-a-difference-container .right-side .header-right-side {
     display: flex;
     align-items: center;
 
-    background-color: #61CE70;
+    background-color: #49C65B;
     height: 50px;
 
     padding-left: 20px;
+
+    margin-bottom: 20px;
 }
-.make-a-difference-container .right-side .header-right-side span{
+
+.make-a-difference-container .right-side .header-right-side span {
     font-weight: 400;
-    font-size: 20px;
+    font-size: 18px;
+}
+
+.make-a-difference-container .right-side .donation-plans {
+    display: flex;
+    justify-content: center;
+
+    width: 60%;
+    margin: auto;
+
+    margin-bottom: 20px;
+}
+
+.make-a-difference-container .right-side .donation-plans .tantum,
+.monthly,
+.annual {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border: 1px solid #49C65B;
+    flex: 1;
+
+    height: 50px;
+
+    cursor: pointer;
+
+    transition: background-color 0.5s;
+}
+
+/*TODO on click and permanent*/
+
+/* .make-a-difference-container .right-side .donation-plans div::after{
+    background-color: #49C65B;
+} */
+
+.make-a-difference-container .right-side .select-import-container {
+    display: flex;
+    flex-direction: column;
+
+    width: 80%;
+    margin: auto;
+}
+
+.make-a-difference-container .right-side .select-import-container .import {
+}
+
+.make-a-difference-container .right-side .select-import-container .import p {
 }
