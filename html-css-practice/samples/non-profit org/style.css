@@ -603,7 +603,6 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-
 }
 
 .donate-container .button-container {
@@ -639,7 +638,7 @@ body {
     width: 60%;
 
     gap: 20px;
-    height: 800px;
+    height: 700px;
 }
 
 .make-a-difference-container .left-side {
@@ -693,7 +692,8 @@ body {
     margin-bottom: 20px;
 }
 
-.make-a-difference-container .right-side .donation-plans .tantum,
+.make-a-difference-container .right-side .donation-plans 
+.tantum,
 .monthly,
 .annual {
     display: flex;
@@ -707,13 +707,9 @@ body {
 
     cursor: pointer;
 
-    transition: background-color 0.5s;
 }
 
-/*TODO on click and permanent*/
-
-/* .make-a-difference-container .right-side .donation-plans div::after{
-    background-color: #49C65B;
+/* .make-a-difference-container .right-side .donation-plans .tantum:focus{
 } */
 
 .make-a-difference-container .right-side .select-import-container {
@@ -723,9 +719,47 @@ body {
     width: 80%;
     margin: auto;
 }
-
-.make-a-difference-container .right-side .select-import-container .import {
+.make-a-difference-container .right-side .select-import-container .amounts-container {
+    list-style: none;
 }
 
-.make-a-difference-container .right-side .select-import-container .import p {
+.make-a-difference-container .right-side .select-import-container .amounts-container .import {
+    height: 80px;
+
+    display: flex;
+    align-items: center;
+
+    padding-left: 20px;
+
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+
+    cursor: pointer;
+}
+/* .make-a-difference-container .right-side .select-import-container .amounts-container .import:focus {
+} */
+.make-a-difference-container .right-side .select-import-container .amounts-container .import .dot {
+    width: 20px;
+    fill: rgb(190, 190, 190);
+
+    margin-right: 20px;
+}
+
+.make-a-difference-container .right-side .select-import-container .amounts-container .import .price {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+}
+.make-a-difference-container .right-side .select-import-container .amounts-container .import .price {
+}
+.make-a-difference-container .right-side .select-import-container .amounts-container .import .price span {
+    font-weight: 400;
+}
+.make-a-difference-container .right-side .select-import-container .amounts-container .import .price input {
+    height: 30px;
+    width: 80%;
+    border: none;
+}
+.make-a-difference-container .right-side .select-import-container .amounts-container .import .price input:focus {
+    outline: none;
 }
