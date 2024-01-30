@@ -574,3 +574,67 @@ body {
     font-size: 30px;
     font-weight: 500;
 }
+
+.donate-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.donate-container .button-container {
+    margin-bottom: 20px;
+}
+.donate-container .button-container .donate-btn {
+    width: 250px;
+    height: 60px;
+
+    background-color: #61CE70;
+    color: white;
+
+    font-weight: 500;
+    font-size: 20px;
+
+    border: none;
+    border-radius: 30px;
+
+    cursor: pointer;
+}
+
+.make-a-difference-container {
+    display: flex;
+
+    margin: auto;
+    width: 60%;
+
+    gap: 20px;
+}
+.make-a-difference-container .left-side {
+    flex: 2;
+}
+.make-a-difference-container .left-side .image-container {
+    text-align: center;
+    margin-bottom: 10px;
+}
+.make-a-difference-container .left-side .image-container img {
+    width: 100%;
+}
+.make-a-difference-container .left-side h5{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.make-a-difference-container .right-side {
+    flex: 1;
+}
+.make-a-difference-container .right-side .header-right-side{
+    display: flex;
+    align-items: center;
+
+    background-color: #61CE70;
+    height: 50px;
+
+    padding-left: 20px;
+}
+.make-a-difference-container .right-side .header-right-side span{
+    font-weight: 400;
+    font-size: 20px;
+}
