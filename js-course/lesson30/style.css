@@ -62,7 +62,7 @@ header hr {
 .input-wrapper #submitButton{
     width: 120px;
     height: 40px;
-    background-color: hsla(212, 83%, 57%, 0.678);
+    background-color: hsla(212, 84%, 50%, 0.678);
     color: white;
     font-size: 15px;
     font-weight: 500;
@@ -76,5 +76,5 @@ header hr {
     transition: background-color 0.5s;
 }
 #submitButton:hover{
-    background-color: hsla(212, 67%, 62%, 0.678);
+    background-color: hsla(212, 66%, 58%, 0.678);
 }
