@@ -1,0 +1,73 @@
+body {
+    font-family: sans-serif;
+    padding: 2rem;
+}
+
+.container {
+    text-align: center;
+}
+.temp-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    gap: 10px;
+
+    margin-bottom: 20px;
+}
+.temp-wrapper label {
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+#textInput {
+    text-align: center;
+    height: 20px;
+    margin: auto;
+}
+
+.conversion-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    gap: 10px;
+}
+.conversion-wrapper .textConvert {
+    font-size: 20px;
+}
+
+.temp-unit-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 5px;
+
+    margin-bottom: 10px;
+}
+
+.submit {
+    width: 150px;
+    height: 30px;
+    cursor: pointer;
+
+    color: white;
+    background-color: rgb(51, 106, 245);
+    border: none;
+    border-radius: 5px;
+
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    transition: background-color 0.25s;
+
+    margin-bottom: 20px;
+}
+.submit:hover {    
+    background-color: rgb(75, 123, 243);
+}
+
+#tempLabel {
+    font-size: 20px;
+}
