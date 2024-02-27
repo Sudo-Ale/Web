@@ -23,3 +23,7 @@ function displayConsole(output){
 function displayDOM(output){
     document.getElementById("myLabel").innerHTML = output;
 }
+
+array.forEach(element => {
+    
+});
