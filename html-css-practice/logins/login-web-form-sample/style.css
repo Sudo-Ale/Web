@@ -19,7 +19,7 @@ body {
   width: 420px;
   background-color: transparent;
   border: 2px solid rgba(255, 255, 255, .2);
-  backdrop-filter: blur(20px);
+  backdrop-filter: blur(5px);
   box-shadow: 0 0 10px rgba(0, 0, 0, .2);
   color: white;
   border-radius: 10px;
@@ -104,6 +104,11 @@ body {
   font-size: 16px;
   color: #333;
   font-weight: 600;
+
+  transition: background-color 0.5s;
+}
+.wrapper button:hover {
+  background-color: #ffffffb6;
 }
 
 .wrapper .register-link {
