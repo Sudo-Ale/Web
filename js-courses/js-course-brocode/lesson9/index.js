@@ -1,3 +1,5 @@
+// counter program
+
 let count = 0;
 
 document.getElementById("decrease-btn").onclick = function(){

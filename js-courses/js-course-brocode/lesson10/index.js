@@ -1,3 +1,4 @@
+// random number generator
 let x, y, z;
 
 document.getElementById("roll-btn").onclick = function(){

@@ -24,5 +24,4 @@ let cards = [
             new Cards("A", "Spades"),
             new Cards("A", "Diamonds"),
             new Cards("A", "Clubs")
-            
 ];

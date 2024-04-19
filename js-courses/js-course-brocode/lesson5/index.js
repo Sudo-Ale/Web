@@ -1,4 +1,4 @@
-// Type conversion = change the dataype of a value to another
+// type conversion = change the dataype of a value to another
 //                   (strings, numbers, booleans)
 
 let age = window.prompt("How old are you?");

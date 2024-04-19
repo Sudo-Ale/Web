@@ -1,0 +1,59 @@
+lesson 1: intro
+lesson 2: variable assignment
+lesson 3: arithmetic expression
+lesson 4: user input
+lesson 5: type conversion
+lesson 6: const
+lesson 7: math
+lesson 8: hypotenuse calc practice program
+lesson 9: counter program
+lesson 10: random number generator
+lesson 11: useful string methods
+lesson 12: string slicing
+lesson 13: method chaining
+lesson 14: if statement
+lesson 15: check property
+lesson 16: switches
+lesson 17: and or logical operator
+lesson 18: not logical operator
+lesson 19: while loops
+lesson 20: do while loops
+lesson 21: for loops
+lesson 22: break and continue statements
+lesson 23: nested loops
+lesson 24: functions
+lesson 25: return statement
+lesson 26: ternary operator
+lesson 27: var vs let
+lesson 28: template literals
+lesson 29: format currency
+lesson 30: number guessing game
+lesson 31: temperature conversion program
+lesson 32: arrays
+lesson 33: loop through an array
+lesson 34: sort an array of strings
+lesson 35: 2D arrays
+lesson 36: spread operator
+lesson 37: rest parameters
+lesson 38: callbacks
+lesson 39: array for each
+lesson 40: array map
+lesson 41: array filter
+lesson 42: array reduce
+lesson 43: sort an array of numbers
+lesson 44: function expression
+lesson 45: arrow function expression
+lesson 46: shuffle an array
+lesson 47: nested functions
+lesson 48: maps
+lesson 49: objects
+lesson 50: this keyword
+lesson 51: classes
+lesson 52: constructors
+lesson 53: static keyword
+lesson 54: inheritance
+lesson 55: super keyword
+lesson 56: getters and setters
+lesson 57: objects as arguments
+lesson 58: array of objects
+lesson 59: anonymous objects
