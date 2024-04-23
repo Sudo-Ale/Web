@@ -8,20 +8,73 @@
 
     <link rel="stylesheet" href="style.css">
     <script src="index.js"></script>
+
+    <style>
+        * {
+            margin: 0 auto;
+            padding: 0;
+            box-sizing: border-box;
+
+            height: 100%;
+        }
+        body {
+            background-color: #36393e;
+        }
+        .wrapper {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            width: 100%;
+            height: 100%;
+        }
+
+        .wrapper * {
+            color: white;
+            text-align: center;
+        }
+
+        .wrapper .left-side{
+            width: 300px;
+            background-color: #282b30;
+        }
+        .wrapper .center-side {
+            background-color: #36393e;
+            flex: 2;
+        }
+        .wrapper .right-side {  
+            background-color: #36393e;
+            flex: 1;
+
+            border-left: 1px solid rgba(255, 255, 255, .1);
+        }
+
+        @media (max-width:1190px) {
+            .wrapper .left-side {
+                width: 300px;
+            }
+            .wrapper .center-side {
+                flex: 1;
+            }
+            .wrapper .right-side {
+                display: none;
+            }
+        }
+    </style>
 </head>
 
 <body>
     <div class="wrapper">
         <div class="left-side">
-
+            left
         </div>
 
         <div class="center-side">
-
+            center
         </div>
 
         <div class="right-side">
-
+            right
         </div>
     </div>
 </body>
