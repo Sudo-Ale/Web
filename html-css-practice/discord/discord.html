@@ -10,22 +10,21 @@
     <script src="index.js"></script>
 
     <style>
+        html, body {
+            height: 100%;
+            width: 100%;
+        }
         * {
-            margin: 0 auto;
+            margin: 0;
             padding: 0;
             box-sizing: border-box;
-
-            height: 100%;
         }
         body {
             background-color: #36393e;
         }
         .wrapper {
             display: flex;
-            justify-content: space-between;
-            align-items: center;
-
-            width: 100%;
+            justify-content: center;
             height: 100%;
         }
 
@@ -37,6 +36,16 @@
         .wrapper .left-side{
             width: 300px;
             background-color: #282b30;
+            height: 100%;
+
+            position: relative;
+        }
+        .left-side .server-channels {
+            position: fixed;
+            top: 0;
+            left: 0;
+
+            width: 20%;
         }
         .wrapper .center-side {
             background-color: #36393e;
@@ -67,6 +76,12 @@
     <div class="wrapper">
         <div class="left-side">
             left
+            <div class="server-channels">
+                <p>prova1</p>
+                <p>prova2</p>
+                <p>prova3</p>
+                <p>prova4</p>
+            </div>
         </div>
 
         <div class="center-side">
