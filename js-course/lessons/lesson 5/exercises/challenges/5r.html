@@ -1,15 +1,132 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculator sample</title>
-</head>
-<body>
-    
 
-    <script>
-        let calculation = '';
-    </script>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculator sample</title>
+</head>
+
+<body>
+  <p>
+    Calculator
+  </p>
+  
+  <p>
+    <button onclick="
+        calculation += '1';
+      ">
+      1
+    </button>
+
+    <button onclick="
+        calculation += '2';
+      ">
+      2
+    </button>
+
+    <button onclick="
+        calculation += '3';
+      ">
+      3
+    </button>
+
+    <button onclick="
+      calculation+= ' + ';
+    ">
+      &#43;
+    </button>
+
+  </p>
+  <p>
+    <button onclick="
+        calculation += '4';
+      ">
+      4
+    </button>
+
+    <button onclick="
+        calculation += '5';
+      ">
+      5
+    </button>
+
+    <button onclick="
+        calculation += '6';
+      ">
+      6
+    </button>
+
+    <button onclick="
+      calculation += ' - ';
+    ">
+      &#45;
+    </button>
+  </p>
+  <p>
+    <button onclick="
+        calculation += '7';
+      ">
+      7
+    </button>
+
+    <button onclick="
+        calculation += '8';
+      ">
+      8
+    </button>
+
+    <button onclick="
+        calculation += '9';
+      ">
+      9
+    </button>
+
+    <button onclick="
+      calculation += ' * '
+      ">
+      &#42;
+    </button>
+  </p>
+
+  <p>
+    <button onclick="
+      calculation += '0';
+      ">
+      0
+    </button>
+
+    <button onclick="
+      calculation += ' . '
+      ">
+      &#46;
+    </button>
+
+    <button onclick="
+      calculation = eval(calculation);
+      console.log(calculation);
+      ">
+      &#61;
+    </button>
+
+    <button onclick="
+      calculation+= ' / '
+      ">
+      &#47;
+    </button>
+  </p>
+
+  <p>
+    <button onclick="
+      calculation = 0
+      ">
+      Clear
+    </button>
+  </p>
+
+  <script>
+    let calculation = '';
+  </script>
 </body>
+
 </html>
