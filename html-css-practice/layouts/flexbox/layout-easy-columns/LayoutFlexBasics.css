@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.wrapper > * {
+    flex: 25%;
+    padding: 20px;
+
+    background-color: lightgray;
+    border: 1px solid black;
+}
+
+@media screen and (max-width: 1024px) {
+    .wrapper > * {
+        flex: 50%;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .wrapper {
+        flex-direction: column;
+    }
+}

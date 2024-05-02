@@ -1,0 +1,12 @@
+.wrapper {
+    display: flex;
+    text-align: center;
+    gap: 20px;
+}
+
+.wrapper > * {
+    width: calc(100%/3);
+    background-color: lightgray;
+
+    border: 1px solid black;
+}

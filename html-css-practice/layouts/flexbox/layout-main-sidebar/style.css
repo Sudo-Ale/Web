@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    width: 100%;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: stretch; /* Assicura che i sidebar e il contenuto principale si estendano per tutta l'altezza del viewport */
+    height: 100vh;
+}
+
+.sidebar {
+    background-color: #f4f4f4; /* Colore di sfondo per i sidebar */
+    padding: 20px;
+    width: calc(25% - 40px); /* 20px di padding su ciascun lato */
+}
+
+.left-sidebar {
+    margin-right: 20px; /* Spazio tra il sidebar sinistro e il contenuto principale */
+}
+
+.right-sidebar {
+    margin-left: 20px; /* Spazio tra il contenuto principale e il sidebar destro */
+}
+
+.main-content {
+    flex-grow: 1; /* Occupa lo spazio disponibile */
+    background-color: #ddd; /* Colore di sfondo per il contenuto principale */
+    padding: 20px;
+    width: 50%; /* Larghezza del contenuto principale */
+    box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Ombra per evidenziare il contenuto principale */
+}
