@@ -12,7 +12,9 @@ html, body {
 }
 
 header {
-    background-color: lightgray;
+    background-color: rgb(87, 87, 87);
+    color: white;
+    font-size: 20px;
     height: 70px;
 
     text-align: center;
@@ -23,8 +25,6 @@ header {
     top: 0;
 
     z-index: 1;
-
-
 }
 
 nav, ul {
@@ -34,8 +34,7 @@ nav, ul {
     justify-content: center;
     align-items: center;
 }
-
-header nav ul li {
+nav ul li {
     display: inline-block;
     margin: 0 50px 0 50px;
 }
@@ -81,24 +80,37 @@ main {
     border: 1px solid red;
     
     text-align: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding-bottom: 30px;
 }
 
 .col {
     border: 1px solid red;
-    display: inline-block;
-    text-align: center;
     width: 200px;
+    height: 90%;
 
-    margin: 20px 20px;
+    margin: 0 20px;
 }
-
 .col img {
     width: 50px;
     height: 50px;
 }
+.col button {
+    width: 60px;
+    height: 30px;
+    color: black;
+    border: none;
+    border-radius: 30px;
+    background-color: rgba(224, 94, 13, 0.579);
+}
 
 footer {
-    background-color: lightgray;
+    background-color: rgb(87, 87, 87);
+    color: white;
     height: 40px;
 
     position: fixed;
