@@ -31,7 +31,8 @@ nav, ul {
     height: 100%;
 
     display: flex;
-    justify-content: center;
+    flex: 1;
+    justify-content: space-around;
     align-items: center;
 }
 nav ul li {

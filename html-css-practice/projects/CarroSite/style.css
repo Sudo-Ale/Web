@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*HEADER*/
+header {    
+    height: 50px;
+
+    display: flex;
+    align-items: center;
+
+    padding:  0 20px 0 20px;
+    font-size: 20px;
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+}
+header .author {
+    flex: 1;
+    color: rgb(179, 67, 67);
+}
+/*nav*/
+header nav {
+    flex: 2;
+}
+header ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 550px) {
+    header {
+        flex-direction: column;
+    }
+    header ul li {
+        padding-right: 20px;
+    }
+}
+
+/*MAIN*/
+
+/*banner*/
+.banner {
+    height: 50rem;
+
+    /* background: linear-gradient(
+        to bottom,
+        rgba(88, 88, 84, 0.5),
+        rgba(120, 120, 177, 0.2)
+      ), 
+    url(img/carrosio.jpg) no-repeat; */
+
+    background: url('img/carrosio.jpg') center center no-repeat;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    color: rgb(255, 0, 0);
+}
+
+.banner h1 {
+    font-size: 12rem;
+    font-weight: 700;
+    font-family: Montserrat, serif;
+
+    border-top: 8px solid red;
+    border-bottom: 8px solid red;
+}
+
+/*history*/
+.journal {
+    padding: 0 25% 4rem 25%;
+    background-color: rgb(254, 231, 218);
+    color: #4a4a4a;
+    font-family: Montserrat, serif;
+}
+.journal h3 {
+    font-size: 50px;
+    text-align: center;
+}
+
+.journal h4 {
+    font-size: 25px;
+}
+
+p {
+    margin-bottom: 3rem;
+    word-spacing: .2rem;
+}
+
+.photo {
+    width: 75%;
+    padding: 1.1rem;
+    border-radius: 5px;
+    margin: auto;
+    background-color: white;
+    font-family: 'Merriwheater', serif;
+}
+.photo .image-container {
+    overflow: hidden;
+    margin-bottom: 1.11rem;
+}
+.photo .image-container img {
+    width: 100%;
+}
+.photo .caption {
+    font-style: italic;
+}
+.photo.first {
+    position: relative;
+    top: -2.77rem;
+    margin-bottom: 1.6rem;
+}
+
