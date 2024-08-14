@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.flex-item-container {
+    display: flex;
+    flex-wrap: wrap; /*can wrap items onto multiple lines*/
+
+    font-size: 30px;
+    text-align: center;
+}
+.flex-item-left {
+    background-color: aliceblue;
+    padding: 10px;
+    flex: 50%; /*shorthand (flex-grow, flex-shrink, flex-basis) sets how flex item will grow or shrink to fit the space available*/
+}
+.flex-item-right {
+    padding: 10px;
+    background-color: bisque;
+    flex: 50%;
+}
+
+/*makes 1 column and 2 rows*/
+@media screen and (max-width: 600px) {
+    .flex-item-left, .flex-item-right {
+        flex: 100%;
+    }
+}
