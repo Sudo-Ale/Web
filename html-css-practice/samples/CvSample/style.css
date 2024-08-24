@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+
+    font-family: Roboto;
+}
+
+main {
+    display: flex;
+    text-align: center;
+}
+
+/*image, contacts, education, language*/
+.section-left{
+    color: white;
+
+    background-color: rgb(22, 48, 62);
+    flex: 1;
+
+    height: 1000px;
+}
+.image-container {
+    margin: 20px;
+}
+.image-container img {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+}
+.contacts, .education, .language {
+    text-align: left;
+    margin-left: 120px;
+}
+@media screen and (max-width: 680px){
+    .contacts, .education, .language{
+        text-align: left;
+        margin-left: 30px;
+    }
+}
+.section-left h3 {
+    font-size: 25px;
+    border-bottom: 2px solid white;
+
+    margin-bottom: 20px;
+}
+.section-left .phone, .email, .address, .regional-qualification, .college, .software-dev-qualification, .languages{
+    margin-bottom: 30px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+/*experience, skills*/
+.section-right {
+    flex: 2;
+    height: 1000px;
+}
