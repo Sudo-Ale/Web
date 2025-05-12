@@ -16,6 +16,8 @@ main {
 
     background-color: rgb(22, 48, 62);
     flex: 1;
+
+    min-height: 100vh;
 }
 .image-container {
     margin: 20px;
@@ -29,19 +31,21 @@ main {
     text-align: left;
     margin-left: 120px;
 }
-@media screen and (max-width: 680px){
-    .contacts, .education, .language{
-        text-align: left;
-        margin-left: 30px;
-    }
-}
+
 .section-left h3 {
     font-size: 25px;
     border-bottom: 2px solid white;
 
     margin-bottom: 20px;
 }
-.section-left .phone, .email, .address, .regional-qualification, .college, .software-dev-qualification, .languages{
+.section-left 
+    .phone, 
+    .email, 
+    .address, 
+    .regional-qualification, 
+    .college, 
+    .software-dev-qualification, 
+    .languages {
     margin-bottom: 30px;
 
     display: flex;
@@ -122,4 +126,55 @@ main {
     display: flex;
     flex-direction: column;
     gap: 6px;
+}
+
+@media screen and (max-width: 1280px){
+    .contacts, .education, .language{
+        text-align: left;
+        margin-left: 30px;
+    }
+}
+
+@media screen and (max-width: 770px){
+    .section-right .head {
+        text-align: center;
+        margin-bottom: 80px;
+    }
+    .contacts, .education, .language{
+        text-align: left;
+        margin-left: 30px;
+    }
+}
+
+@media screen and (max-width: 680px){
+    .contacts, .education, .language{
+        text-align: left;
+        margin-left: 30px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    main {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .contacts, .education, .language {
+        text-align: center;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+
+    .section-right .head {
+        text-align: center;
+        margin-bottom: 80px;
+    }
+}
+
+
+@media print {
+    .contacts, .education, .language{
+        text-align: left;
+        margin-left: 30px;
+    }
 }
